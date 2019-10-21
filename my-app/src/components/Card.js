@@ -2,21 +2,6 @@ import React from 'react';
 import { Card, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 import styled from 'styled-components';
 
-const ValueCard = styled.p`
-  font-size: 2rem;
-  font-family: 'Liu Jian Mao Cao', cursive;
-  border: 2px dotted #624f69;
-  width: 25%;
-  background-color: #a4afcc;
-  padding-bottom: 30px;
-`;
-
-const Title = styled.h2`
-  color: black;
-  font-size: 3rem;
-  font-family: 'Liu Jian Mao Cao', cursive;
-`;
-
 const ValueCards = props => {
   return (
     <div className='ValueCard'>
@@ -36,3 +21,20 @@ const ValueCards = props => {
 };
 
 export default ValueCards;
+
+/// styled components:
+
+const ValueCard = styled.p`
+  font-size: 2rem;
+  font-family: 'Liu Jian Mao Cao', cursive;
+  border: 2px dotted #624f69;
+  width: 25%;
+  background-color: #a4afcc;
+  padding-bottom: 30px;
+`;
+
+const Title = styled.h2`
+  color: black;
+  font-size: 3rem;
+  font-family: 'Liu Jian Mao Cao', cursive;
+`;

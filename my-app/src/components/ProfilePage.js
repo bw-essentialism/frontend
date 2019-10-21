@@ -55,9 +55,3 @@ const Essentials = styled.p`
   color: black;
   font-family: 'Liu Jian Mao Cao', cursive;
 `;
-
-const CardOne = styled.p`
-  font-size: 2rem;
-  color: black;
-  font-family: 'Liu Jian Mao Cao', cursive;
-`;
