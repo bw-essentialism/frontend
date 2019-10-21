@@ -7,6 +7,7 @@ import { Route, Link } from 'react-router-dom';
 const Routes = () => {
   return (
     <div>
+      {/* ALl Routes Go here from now on!*/}
       <Route path ="/" component={Navigation}/>
       <Route exact path='/' component={Login} />
       <Route exact path='/register' component={Register} />
