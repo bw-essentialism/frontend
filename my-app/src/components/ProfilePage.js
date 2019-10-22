@@ -13,7 +13,10 @@ export default function ProfilePage() {
         <Bio> Bio: </Bio>
         <Essentials> The Essentials in my life: </Essentials>
       </header>
-      <Card />
+      <CardSection>
+        <Card />
+        <Card />
+      </CardSection>
     </section>
   );
 }
@@ -54,4 +57,11 @@ const Essentials = styled.p`
   font-size: 2rem;
   color: black;
   font-family: 'Liu Jian Mao Cao', cursive;
+  padding-bottom: 20px;
+`;
+
+const CardSection = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 `;

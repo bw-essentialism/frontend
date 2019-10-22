@@ -28,9 +28,10 @@ const ValueCard = styled.p`
   font-size: 2rem;
   font-family: 'Liu Jian Mao Cao', cursive;
   border: 2px dotted #624f69;
-  width: 25%;
+  width: 50%;
   background-color: #a4afcc;
   padding-bottom: 30px;
+  margin: 0 auto;
 `;
 
 const Title = styled.h2`

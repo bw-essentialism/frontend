@@ -16,3 +16,10 @@ code {
   text-align: center;
   margin: 0 auto;
 }
+
+.values-page {
+  border: 3px solid purple;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
