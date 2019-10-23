@@ -11,14 +11,15 @@ code {
 }
 
 .profile-page {
-  border: 3px solid purple;
+  border: 3px solid #311021;
   width: 50%;
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 500px;
 }
 
 .values-page {
-  border: 3px solid purple;
+  border: 3px solid #311021;
   width: 75%;
   text-align: center;
   margin: 0 auto;

@@ -7,10 +7,8 @@ export default function ProfilePage() {
     <section className='profile-page'>
       <header>
         <Welcome> My Profile </Welcome>
-        <NameOne> First Name </NameOne>
-        <NameTwo> Last Name </NameTwo>
+        <Name> First Name, Last Name </Name>
         <Email> Email: </Email>
-        <Bio> Bio: </Bio>
         <Essentials> The Essentials in my life: </Essentials>
       </header>
       <CardSection>
@@ -24,39 +22,27 @@ export default function ProfilePage() {
 /// styled components:
 
 const Welcome = styled.h1`
-  color: purple;
+  color: #624f69;
   font-size: 4rem;
   font-family: 'Liu Jian Mao Cao', cursive;
 `;
 
-const NameOne = styled.p`
-  font-size: 2rem;
+const Name = styled.p`
+  font-size: 1.5rem;
   color: black;
-  font-family: 'Liu Jian Mao Cao', cursive;
-`;
-
-const NameTwo = styled.p`
-  font-size: 2rem;
-  color: black;
-  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: 'Roboto', sans-serif;
 `;
 
 const Email = styled.p`
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: black;
-  font-family: 'Liu Jian Mao Cao', cursive;
-`;
-
-const Bio = styled.p`
-  font-size: 2rem;
-  color: black;
-  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: 'Roboto', sans-serif;
 `;
 
 const Essentials = styled.p`
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: black;
-  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: 'Roboto', sans-serif;
   padding-bottom: 20px;
 `;
 
