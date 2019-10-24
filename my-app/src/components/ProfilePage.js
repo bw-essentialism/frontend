@@ -47,7 +47,8 @@ const Essentials = styled.p`
 `;
 
 const CardSection = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px 50px;
 `;
