@@ -2,6 +2,8 @@ import React from 'react';
 import Login from '../components/login';
 import Register from '../components/registration';
 import Navigation from '../components/navbar';
+import Profile from '../components/profile';
+import PrivateRoute from "./PrivateRoute";
 import { Route, Link } from 'react-router-dom';
 
 const Routes = () => {
@@ -9,8 +11,10 @@ const Routes = () => {
     <div>
       {/* ALl Routes Go here from now on!*/}
       <Route path ="/" component={Navigation}/>
-      <Route exact path='/' component={Login} />
+      <Route exact path ="/" component={Login}/>
+      <Route exact path='/login' component={Login} />
       <Route exact path='/register' component={Register} />
+      <PrivateRoute exact path='/profile' component={Profile} />
     </div>
   );
 }
