@@ -9,7 +9,7 @@ const ValueCards = props => {
         <Card>
           <CardBody>
             <Title>
-              <CardTitle> Kindness </CardTitle>
+              <CardTitle> {props.name} </CardTitle>
             </Title>
             <Button>Add to my profile</Button>
           </CardBody>
@@ -27,14 +27,15 @@ const ValueCard = styled.p`
   font-size: 2rem;
   font-family: 'Liu Jian Mao Cao', cursive;
   border: 2px dotted #624f69;
-  width: 100%;
+  width: 250px;
+  height: 250px;
   background-color: #a4afcc;
   padding-bottom: 30px;
   margin: 0 auto;
 `;
 
 const Title = styled.h2`
-  color: black;
+  color: #624f69;
   font-size: 3rem;
   font-family: 'Liu Jian Mao Cao', cursive;
 `;
