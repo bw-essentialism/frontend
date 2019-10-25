@@ -22,14 +22,10 @@ export default ProfileValueCards;
 
 /// styled components:
 
-const ProfileValueCard = styled.p`
-  font-size: 2rem;
-  font-family: 'Liu Jian Mao Cao', cursive;
+const ProfileValueCard = styled.div`
   border: 2px dotted #624f69;
-  width: 200px;
-  height: 200px;
-  background-color: #a4afcc;
-  padding-bottom: 30px;
+  width: 350px;
+  height: 130px;
   margin: 0 auto;
 `;
 

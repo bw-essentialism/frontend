@@ -78,6 +78,6 @@ const Essentials = styled.p`
 const ProfileCardSection = styled.div`
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 50px 50px;
 `;

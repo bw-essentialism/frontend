@@ -61,6 +61,6 @@ const Instructions = styled.h3`
 const CardSection = styled.div`
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 50px 50px;
 `;
